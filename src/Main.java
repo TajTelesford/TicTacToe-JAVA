@@ -146,6 +146,7 @@ public class Main {
 
         return move;
     }
+    //Checks If There Is More Positions On The Board
     public static boolean morePositions(ArrayList<List<Character>> grid, int size)
     {
         for(int i = 0; i < size; i++)
